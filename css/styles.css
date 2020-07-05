@@ -1,0 +1,154 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2{
+  line-height: 1.5;
+  font-size: 2.8em;
+  font-weight: 900;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* ******************  title section *********************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar{
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand{
+  /* font-family: "Ubuntu"; doesn't work for some reason*/
+  font-size: 2rem;
+  font-weight: bold; }
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-light';
+}
+
+/* download-button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 32%;
+}
+
+/******************* features section ********************/
+#features{
+  padding: 1% 15% 1%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; can be commented */
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* *************** testimonials section ************* */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 3% 15% 5%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 15px;
+}
+
+/**************** pricing section ****************/
+
+#pricing{
+  padding: 50px 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* *************** cta section **********************/
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 15%;
+}
+
+.cta-heading{
+  font-size: 2.4rem;
+  line-height: 1.4;
+}
+
+/* footer section */
+#footer{
+  padding: 3% 15%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
